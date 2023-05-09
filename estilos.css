@@ -21,7 +21,7 @@ header h1 {
 }
 
 /*Menu base para todo o site
-  Ele está presente desde o Home, a Store e os Produtos*/
+  Ele está presente desde o index, a Store e os Produtos*/
 .menu {
   background-color: whitesmoke;
   margin: 0;
@@ -49,7 +49,7 @@ header h1 {
 
 
 /*O main esta em todo o codigo onde vai pegar a parte central 
-  sendo no Home a parte do inicio e a mostra dos produtos,
+  sendo no index a parte do inicio e a mostra dos produtos,
   dentro dos produtos está presente o produto a ser vendido e na store
   mostra o endereço exato de onde a loja física fica*/
 main {
@@ -65,13 +65,13 @@ main {
   max-height: 70px;
 }
 
-/*Imagem do Home*/
+/*Imagem do index*/
 .vi {
   width: 96%;
   max-height: 600px;
 }
 
-/*Informações do Home*/
+/*Informações do index*/
 #inf1 {
   color: white;
   border: solid;
