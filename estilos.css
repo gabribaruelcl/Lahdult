@@ -1,0 +1,215 @@
+/*Base do Site*/
+body {
+  background-color: #ca1b87;
+  color: #eb4b5e;
+  font-family: Candara, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+header {
+  padding: 10px 70px 50px 20px;
+}
+
+h1,
+h2 {
+  margin: 10px;
+}
+
+header h1 {
+  font-size: 5rem;
+  user-select: none;
+}
+
+/*Menu base para todo o site
+  Ele está presente desde o Home, a Store e os Produtos*/
+.menu {
+  background-color: whitesmoke;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: -1.5%;
+}
+
+.menu a {
+  padding: 14px;
+  text-decoration: none;
+  color: rgb(177, 38, 38);
+  transition: background-color .5s;
+}
+
+.menu a:hover {
+  background-color: snow;
+  color: #2fcfcc;
+  transition: background-color .5s;
+  box-shadow: 0 1px 5px black rgb(0, 0, 0, 0.2);
+}
+
+
+
+/*O main esta em todo o codigo onde vai pegar a parte central 
+  sendo no Home a parte do inicio e a mostra dos produtos,
+  dentro dos produtos está presente o produto a ser vendido e na store
+  mostra o endereço exato de onde a loja física fica*/
+main {
+  height: 100%;
+  padding: 30px 0px 0px 50px;
+}
+
+.logs {
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 20px;
+  max-width: 70px;
+  max-height: 70px;
+}
+
+/*Imagem do Home*/
+.vi {
+  width: 96%;
+  max-height: 600px;
+}
+
+/*Informações do Home*/
+#inf1 {
+  color: white;
+  border: solid;
+  border-radius: 10%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  margin-top: 440px;
+  margin-left: 1%;
+}
+
+/*Conjutos de roupas que estão no site*/
+.clothes {
+  color: white;
+  text-align: center;
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+/*Aqui são as roupas do mostruario*/
+.clothe {
+  color: white;
+  text-align: center;
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+
+}
+
+.conj img {
+  width: 100%;
+  border: solid black 1px;
+}
+
+.blocos {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  width: 20%;
+
+}
+
+.blocos:hover {
+  box-shadow: 7px 10px 10px rgb(124, 0, 81);
+}
+
+.blocos a {
+  text-decoration: none;
+  color: white;
+}
+
+.precos {
+  background-color: green;
+  font-size: 120%;
+  color: white;
+  border-radius: 15px;
+  padding: 2px;
+
+}
+
+
+
+
+/* Parte da Loja*/
+#lojaPrin {
+  color: white;
+  text-align: center;
+  font-size: 400%;
+  margin-top: -5%;
+}
+
+/*Informações da Loja*/
+#inf2 {
+  color: white;
+  border: solid;
+  border-radius: 10%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 70%;
+}
+
+/*Aqui são as roupas 
+  em sua devida pagina*/
+
+#nam-prod {
+  font-size: 250%;
+  color: white;
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 41%;
+}
+
+#price {
+  font-size: 150%;
+  color: white;
+  background-color: green;
+  border-radius: 20%;
+  position: absolute;
+  margin-top: -35%;
+  margin-left: 41%;
+  padding: 2px;
+}
+
+#price:hover {
+  box-shadow: 7px 10px 10px rgb(124, 0, 81);
+}
+
+#price a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Rodapé de todas as Páginas
+  mostrando o instagram, até onde entregamos
+  e o número do nosso Whatsapp*/
+footer {
+  background-color: black;
+  margin-right: 0px;
+  width: 100%;
+  height: 250px;
+  color: white;
+  position: relative;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#divas {
+  color: whitesmoke;
+}
+
+#divas a {
+  text-decoration: none;
+  color: white;
+}
